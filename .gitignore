@@ -1,0 +1,32 @@
+# TwOS PC (LFS) Project .gitignore
+
+# 1. Source Code Packages (Tarballs)
+# All downloaded source code archives (tar.gz, zip, etc.) are large binaries. 
+# We ignore them as they should be downloaded externally, not stored in the repository.
+/sources/
+*.tar.gz
+*.zip
+*.xz
+*.bz2
+
+# 2. Temporary and Binary Files Generated During Compilation
+# These files are generated when compiling the system and should not be tracked.
+*.o
+*.a
+*.so
+*.lo
+*.la
+*.pyc
+
+# 3. Final System Images and Virtual Machine Files
+# Ignore the large final bootable OS images and VM-specific disk files.
+*.iso
+*.img
+*.vdi
+*.vmdk
+
+# 4. Automatically Generated Configuration Files
+# Configuration files that change frequently during the LFS build process.
+config.cache
+config.log
+configure.user
