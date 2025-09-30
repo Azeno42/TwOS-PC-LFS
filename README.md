@@ -1,18 +1,49 @@
-# TwOS-PC-LFS (Flower Plant OS Prototype)
+# TwOS PC Alpha
 
-## 🌟 Project Name: TwOS-PC (AzenoOS)
-TwOS-PC is the **x86-based PC prototype** for the TwOS operating system, planned to be developed under the future **Flower** brand. This project aims to build a Linux kernel-based system from scratch (Linux From Scratch - LFS).
+## ⚠️ IMPORTANT SAFETY WARNING
 
-## 🎯 Goal
-The main objective is to gain practical knowledge of how an operating system's core components (kernel, shell, filesystem) are assembled, and to establish the **ultra-light, fast, and customizable foundation for TwOS**.
+**I am not responsible for any damage,** including broken motherboards, corrupted BIOS, data loss due to failed Secure Boot checks, or any other resulting incidents. ***Please take precautions and test this on a Virtual Machine (VM).***
 
-## 🛠️ Core Features
-* **Architecture:** x86 (For virtual machines and PCs).
-* **Base:** Built using the Linux From Scratch (LFS) and Beyond Linux From Scratch (BLFS) guides.
-* **Interface:** Development will start directly with a Graphical User Interface (GUI).
+**Intellectual Property & Licensing:**
 
-## 📝 Licensing Status
-The license selection is currently in progress. The core philosophy will involve a **GPL-like requirement** to ensure that changes made to the TwOS core are contributed back to the community, while protecting the TwOS brand and commercial secrets (like vendor code).
+You are strictly prohibited from taking and modifying any files without my express permission. This project is protected under the **GPL-3 License.** This means that even with my permission, **you are required to publish any changes or modifications you make to the source code.**
 
 ---
-*Developer: Muratcan Yücepur (Azeno42)*
+
+## What is TwOS PC?
+
+TwOS PC is an operating system based on Ubuntu, designed to be a **more modern** and visually stunning prototype for the future flagship operating system of the **Flower** brand.
+
+Currently, this Alpha 0.1 version is being developed using **Cubic (Custom Ubuntu ISO Creator)** to ensure stability and a fast development cycle.
+
+---
+
+## TwOS PC Alpha 0.1 Features
+
+The goal of this Alpha release is to establish a distinct visual identity and a better out-of-box user experience:
+
+* **Modern Visual Design:** A sleek, refined desktop experience achieved through custom GNOME modules, themes, and icon sets, providing a unique look that separates it from standard Ubuntu.
+* **Enabled Shutdown Animation:** The supported shutdown animation, which is often disabled in Ubuntu, has been activated to provide a smoother and more polished transition when powering off or rebooting.
+* **Optimized Application Set:** **Firefox has been removed** and **Google Chrome has been added** as the default web browser.
+
+---
+
+## 🐞 Known Bugs and Issues
+
+We are aware of the following issues in the initial Alpha 0.1 release:
+
+### Scheduled Fixes (Targeting 0.13 Hotfix):
+
+* **Missing BGRT Logo:** The final BIOS Boot Graphics Resource Table (BGRT) logo has not yet been implemented.
+* **Legacy Ubuntu Branding:** The legacy boot systems still display the old Ubuntu logo during the initial boot sequence. This will be addressed in a subsequent release.
+* **Installation Text:** All instances of "Ubuntu" text within the installation wizard are not yet removed.
+
+### Untested / Unknown Issues:
+
+* This operating system has not been extensively tested yet. **Please report any bugs or issues** you encounter here or on the GitHub repository to help us develop and improve the system.
+
+---
+
+## Support the TwOS Project!
+
+If you enjoy using this early build and share the vision for the **Flower** brand's operating system, please consider supporting the project. I am ready to accept any kind of help and collaboration!
