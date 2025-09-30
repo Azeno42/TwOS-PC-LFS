@@ -48,4 +48,4 @@ We are aware of the following issues in the initial Alpha 0.1 release:
 
 If you enjoy using this early build and share the vision for the **Flower** brand's operating system, please consider supporting the project. I am ready to accept any kind of help and collaboration!
 
-**Changelog from my XDA Post**: [[OS][UBUNTU][ALPHA] TWOS PC EDITION for x86 Based Systems]((https://xdaforums.com/t/os-ubuntu-alpha-twos-pc-edition-for-x86-based-systems.4761751/post-90307034))
+**Changelog from my XDA Post**: [[OS][UBUNTU][ALPHA] TWOS PC EDITION for x86 Based Systems](https://xdaforums.com/t/os-ubuntu-alpha-twos-pc-edition-for-x86-based-systems.4761751/post-90307034)
